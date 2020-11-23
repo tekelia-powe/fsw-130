@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 10;
+}
+
+footer {
+    padding: 20px;
+    background-color: red;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    margin: 10px;
+}
+
+.dark-theme {
+    background-color: #333333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.light-theme {
+    background-color: whitesmoke;
+    color: #333333;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.container{
+    display: grid;
+    grid-template-rows: auto 80% auto;
+}
+
+#footer{
+    text-align: center;
+    padding: 5px;
+    border: solid black 1px;
+}
