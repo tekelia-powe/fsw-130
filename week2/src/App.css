@@ -1,0 +1,160 @@
+@media only screen and (max-width: 600px) {
+body{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+
+.header{
+  
+  text-align: center;
+  font-size: 30px;
+  background-color: aquamarine;
+  padding: 35px;
+  border: solid 5px black;
+
+}
+
+.flexbox_container{
+  background-color: #ffff00;
+  display: flex;
+  margin: 20px;
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
+  flex-direction: column;
+  /* width: max-content; */
+  
+}
+
+.flexbox-item{
+
+  /* width: 400px; */
+  margin: 20px;
+  background-color: teal;
+  padding: 25px;
+  border: solid 5px black;
+}
+
+
+.flexbox-item2{
+  text-align: center;
+  min-height: min-content;
+}
+
+.flexbox-item1{
+  text-align: center;
+  min-height: min-content;
+}
+}
+@media only screen and (min-width:1024px) {
+  body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  
+  .header{
+    
+    text-align: center;
+    font-size: 30px;
+    
+    padding: 35px;
+    border: solid 5px black;
+  
+  }
+  
+  .flexbox_container{
+    background-color: teal;
+    display: flex;
+    margin: 20px;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    /* width: max-content; */
+    
+  }
+  
+  .flexbox-item{
+  
+    /* width: 400px; */
+    margin: 20px;
+    background-color: teal;
+    padding: 25px;
+    border: solid 5px black;
+  }
+  
+  
+  .flexbox-item2{
+    text-align: center;
+    min-height: min-content;
+  }
+  
+  .flexbox-item1{
+    text-align: center;
+    min-height: min-content;
+  }
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width:1024px) {
+    body{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+    }
+    
+    
+    .header{
+      
+      text-align: center;
+      font-size: 30px;
+      
+      padding: 35px;
+      border: solid 5px black;
+    
+    }
+    
+    .flexbox_container{
+      background-color: yellow;
+      display: flex;
+      margin: 20px;
+      /* align-items: center; */
+      /* justify-content: space-evenly; */
+      flex-direction: column;
+      /* width: max-content; */
+      
+    }
+    
+    .flexbox-item{
+    
+      /* width: 400px; */
+      margin: 20px;
+      background-color: yellow;
+      padding: 25px;
+      border: solid 5px black;
+    }
+    
+    
+    .flexbox-item2{
+      text-align: center;
+      min-height: min-content;
+      -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+    }
+    
+    .flexbox-item1{
+      text-align: center;
+      min-height: min-content;
+      min-width: auto;
+    }
+    input{
+      min-width: 0;
+    }
+    }
+    
+    
+  
