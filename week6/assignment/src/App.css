@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Holtwood One SC', serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+
+}
+
+h1{
+  margin: 5px;
+  color: whitesmoke;
+}
+
+p{
+  margin: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: 0 32px;
+  justify-content: center;
+}
+
+.img_container{
+  display: flex;
+  flex-direction: row;
+  margin: 0 32px;
+  font-size: xx-large;
+  text-align: center;
+  align-items: center;
+  
+}
+.list_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+  .list_item{
+    max-width: fit-content;
+    
+  }
+form{
+  border: 5px solid #333;
+  padding: 10px;
+  margin: 10px;
+  width: max-content;
+  
+  text-align: center;
+}
+input{
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin: 5px;
+}
+.img {
+  width: 450px;
+  height: 200px;
+  padding: 20px;
+}
+button{
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.delete-btn{
+  background-color: firebrick;
+  color: whitesmoke;
+}
+
+.add-btn{
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+header{
+background-color: black;
+ text-align: center;
+ padding: 10px;
+ 
+}
